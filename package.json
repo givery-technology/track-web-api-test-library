@@ -1,0 +1,30 @@
+{
+  "name": "track-web-api-test-library",
+  "version": "0.0.0",
+  "description": "Test library & runner for track web API challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/givery-technology/track-web-api-test-library.git"
+  },
+  "author": "Givery Technology",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/givery-technology/track-web-api-test-library/issues"
+  },
+  "homepage": "https://github.com/givery-technology/track-web-api-test-library#readme",
+  "dependencies": {
+    "diff-match-patch": "^1.0.4",
+    "mustache": "^3.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "yaml": "^1.7.2"
+  },
+  "peerDependencies": {
+    "codecheck": "^1.2.1",
+    "chai": "^4.2.0"
+  }
+}
