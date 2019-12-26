@@ -105,8 +105,8 @@ function toDebugInput(testcase, testRunner) {
     );
     const body = testRunner.render(
         {
-            on_generate: testcase.on_generate,
-            on_exec: testcase.on_exec,
+            generate: testcase.generate,
+            exec: testcase.exec,
         },
         Object.assign({ token: '{{{token}}}'}, testcase.params),
     );
