@@ -1,6 +1,6 @@
 {
   "name": "track-web-api-test-library",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Test library & runner for track web API challenges",
   "main": "index.js",
   "scripts": {
